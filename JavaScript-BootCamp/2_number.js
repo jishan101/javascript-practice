@@ -13,7 +13,7 @@ x=null;
 
 console.log(x);
 
-x=undefined;
+x=undefined; //should not use this
 
 console.log(x);
 

@@ -1,11 +1,11 @@
-var x="Hello World ";
+var x="Hello World.";
 var y="What up?";
 
 //just show the string in variable x
 console.log(x);
 
 //concatenating x & y
-console.log(x+y);
+console.log(x + " " + y);
 
 //showing the length of variable x
 console.log(x.length);
@@ -21,3 +21,6 @@ console.log('My name is "JISHAN"');
 
 //will show the character on the 4th position(index starts from 0 in any programming language)
 console.log(x[3]);
+
+//template string
+console.log(`Yo, ${x} ${y}`);

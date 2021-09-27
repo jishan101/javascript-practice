@@ -29,7 +29,7 @@ const movie = [
         rating: 4,
         category: "Drama"
     }
-];
+]; //storing some data in the array movie via some objects
 
-const index = movie[2];
+const index = movie[2]; //storing the index of the third object from movie array
 console.log(index.name + " got " + index.rating + "/5 rating under " + index.category + " category.")
