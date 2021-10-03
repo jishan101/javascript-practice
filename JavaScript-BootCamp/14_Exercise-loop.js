@@ -47,11 +47,11 @@ for (let z = 1; z <= 100; z++) {
 }
 
 //Erercise - 5
+let dollar = "$";
+
 for (let i = 1; i <= 6; i++) {
-    for (let j = i; j > 0; j--) {
-        console.log("*");
-    }
-    console.log("\n");
+    console.log(dollar);
+    dollar += "$"
 }
 
 //Erercise - 6
