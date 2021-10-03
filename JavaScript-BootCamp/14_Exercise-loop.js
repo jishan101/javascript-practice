@@ -56,12 +56,12 @@ for (let i = 1; i <= 6; i++) {
 
 //Erercise - 6
 for (let i = 1; i <= 100; i++) {
-    if (i % 3 === 0) {
+    if (i % 3 === 0 && i % 5 === 0) {
+        console.log("FizzBuzz"); //will divide i by 3 and 5 both and print FizzBuzz if reminder is 0 in both cases.
+    } else if (i % 3 === 0) {
         console.log("Fizz"); //will divide i by 3 and print Fizz if reminder is 0.
     } else if (i % 5 === 0) {
         console.log("Buzz"); //will divide i by 5 and print Buzz if reminder is 0.
-    } else if (i % 3 === 0 && i % 5 === 0) {
-        console.log("FizzBuzz"); //will divide i by 3 and 5 both and print FizzBuzz if reminder is 0 in both cases.
     } else {
         console.log(i); //will print i if it is not divisible by 3 or 5.
     }
