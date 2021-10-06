@@ -49,8 +49,10 @@ function calculateAverage(arr) {
             return "C";
         case average >= 80 && average <= 89 && average:
             return "B";
-        case average >= 90 && average:
+        case average >= 90 && average <= 100 && average:
             return "A";
+        default:
+            return "Out of Range"
     }
 }
 
