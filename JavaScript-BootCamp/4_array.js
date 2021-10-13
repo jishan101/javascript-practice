@@ -23,3 +23,6 @@ console.log(sample);
 const newSample = sample.slice(0, -5); //copies elements acording to (startIndex, endIndex)
 console.log(newSample);
 console.log(sample);
+
+newSample.length = 0; //emtied the newSample array
+console.log(newSample);
