@@ -20,9 +20,9 @@ function arrayFromRange(min, max) {
 //result true or false based on searchElement
 const numbers2 = [1, 2, 3, 4]; 
 
-console.log(includes(numbers2, -1));
+console.log(OurIncludes(numbers2, 4));
 
-function includes(array, searchElement) {
+function OurIncludes(array, searchElement) {
     return array.includes(searchElement);
 }
 
