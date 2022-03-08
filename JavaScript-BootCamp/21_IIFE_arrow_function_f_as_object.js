@@ -18,3 +18,11 @@ console.log(fAsObj("Jishan"));
 fAsObj.lastName = "Islam";
 console.log(fAsObj.lastName);
 console.log(Object.entries(fAsObj));
+
+
+const x = {
+    a: "a",
+    b: {b: "b"}
+};
+
+console.log(fAsObj("Irfan"))

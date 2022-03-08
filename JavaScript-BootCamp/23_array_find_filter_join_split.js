@@ -36,7 +36,7 @@ const num2 = [6, 7, 8, 9, 10];
 console.log([num1, num2]); //will add both the array in an array
 console.log([...num1, ...num2]); //will add the elements from both the array in an array
 
-console.log(num2.join()); //will take out the array elements as a string and add any thing in between two elements
+console.log(num2.join("")); //will take out the array elements as a string and add any thing in between two elements
 
 const str = "My name is Jishan";
 
