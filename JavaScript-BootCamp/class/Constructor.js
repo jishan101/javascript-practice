@@ -18,7 +18,7 @@ function Admin(...args) {
     User.apply(this, args);
 }
 
-Admin.prototype = User.prototype;
+Admin.prototype = {...User.prototype};
 
 Admin.prototype.deleteUser = function(user) {
     users = users.filter(u => u.email !== user.email);
